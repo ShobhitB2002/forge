@@ -1,0 +1,10 @@
+{
+  "project": "forge-showcase",
+  "branches": { "production": "production", "integration": "integration", "taskPattern": "task/*" },
+  "runsDir": "D:\\Forge\\ci-runs\\forge-showcase",
+  "requiredDocs": ["README.md", "CLAUDE.md", "docs/RULES.md", "docs/HISTORY.md", "docs/DEPLOYMENT.md"],
+  "forbiddenTracked": "(^|/)(secrets|credentials)(/|$)|\\.(key|pem|jks|keystore)$|(^|/)\\.env",
+  "flutterBin": "",
+  "liveRoot": "",
+  "deployNote": "SKIPPED: no deploy target. Static showcase (README and screenshots). No app build, no server; GitHub Pages is not enabled (404)."
+}
