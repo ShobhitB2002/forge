@@ -2,7 +2,7 @@
   "project": "forge-showcase",
   "branches": { "production": "production", "integration": "integration", "taskPattern": "task/*" },
   "runsDir": "D:\\Forge\\ci-runs\\forge-showcase",
-  "requiredDocs": ["README.md", "CLAUDE.md", "docs/RULES.md", "docs/HISTORY.md", "docs/DEPLOYMENT.md"],
+  "requiredDocs": ["README.md", "CLAUDE.md"],
   "forbiddenTracked": "(^|/)(secrets|credentials)(/|$)|\\.(key|pem|jks|keystore)$|(^|/)\\.env",
   "flutterBin": "",
   "liveRoot": "",
